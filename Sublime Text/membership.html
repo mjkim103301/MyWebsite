@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>mempership</title>
+        <style>
+            td{
+                width: 300px;
+            }
+        </style>
+    </head>
+    <body>
+        <fieldset>
+        <h2>회원가입</h2>
+        <hr/>
+        <table>
+            <tr>
+                <th>아이디</th>
+                <td><input type="text" name = "UserID" value=""/></td>
+            </tr>
+            <tr>
+                <th>비밀번호</th>
+                <td><input type="text" name = "UserPW" value=""/></td>
+            </tr>
+            <tr>
+                <th>비밀번호 확인</th>
+                <td><input type="text" name = "ReUserPW" value=""/></td>
+            </tr>
+            <tr>
+                <th>이름</th>
+                <td><input type="text" name = "Name" value=""/></td>
+            </tr>
+            <tr>
+                <th>이메일</th>
+                <td><input type="email" name="mail" required/></td>
+            </tr>
+           
+            <tr>
+                <th>성별</th>
+                <td>
+                    <input type="radio" name="gender" value="male"/> 남자
+                    &nbsp;&nbsp;&nbsp;&nbsp;
+                    <input type="radio" name="gender" value="female"/> 여자
+                </td>
+            </tr>
+           
+          
+           
+        </table>
+         <input type="button" name="btn_membership" value="회원가입하기">
+        </fieldset>
+    </body>
+</html>
